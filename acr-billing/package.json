@@ -1,0 +1,17 @@
+{
+  "name": "acr-billing-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sum billing export durations by budget.",
+  "scripts": {
+    "list-budget-hours": "node list-budget-hours.js",
+    "sum-budget-hours": "node sum-budget-hours.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "csv-parse": "^7.0.3"
+  }
+}
